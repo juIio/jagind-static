@@ -3,237 +3,454 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAGIND LLC - Your Trusted Distribution Partner</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-    <style>
-      :root {
-        --color-dark: #212A31;
-        --color-purple: #2E2944;
-        --color-blue: #124E66;
-        --color-gray: #748D92;
-        --color-light: #D3D9D4;
-      }
-
-      body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: var(--color-dark);
-        background-color: var(--color-light);
-      }
-
-      .navbar {
-        background-color: var(--color-dark);
-      }
-
-      .navbar-brand {
-        font-weight: bold;
-        color: var(--color-light) !important;
-      }
-
-      .nav-link {
-        color: var(--color-light) !important;
-        transition: color 0.3s ease;
-      }
-
-      .nav-link:hover {
-        color: var(--color-gray) !important;
-      }
-
-      .hero {
-        background-color: var(--color-blue);
-        color: var(--color-light);
-        padding: 100px 0;
-        text-align: center;
-      }
-
-      .hero h1 {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-      }
-
-      .hero p {
-        font-size: 1.2rem;
-        opacity: 0.9;
-      }
-
-      h2 {
-        color: var(--color-purple);
-        margin-bottom: 2rem;
-        text-align: center;
-      }
-
-      .service-card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 100%;
-      }
-
-      .service-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      }
-
-      .benefits-list {
-        list-style-type: none;
-        padding-left: 0;
-      }
-
-      .benefits-list li {
-        padding: 10px 0;
-        border-bottom: 1px solid var(--color-gray);
-      }
-
-      .benefits-list li:last-child {
-        border-bottom: none;
-      }
-
-      .btn-primary {
-        background-color: var(--color-blue);
-        border-color: var(--color-blue);
-        transition: background-color 0.3s ease, border-color 0.3s ease;
-      }
-
-      .btn-primary:hover {
-        background-color: var(--color-purple);
-        border-color: var(--color-purple);
-      }
-
-      footer {
-        background-color: var(--color-dark);
-        color: var(--color-light);
-      }
-
-      @media (max-width: 768px) {
-        .hero {
-          padding: 60px 0;
-        }
-
-        .hero h1 {
-          font-size: 2.5rem;
-        }
-
-        .hero p {
-          font-size: 1rem;
-        }
-      }
-    </style>
+    <title>JAGIND LLC - Scale Your Brand with Meta & Google Ads</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#">JAGIND LLC</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">Our Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#benefits">Supplier Benefits</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+<nav id="navbar">
+    <div class="nav-container">
+        <div class="logo">JAGIND MARKETING</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact" class="cta-nav">Get Started</a></li>
+        </ul>
+        <div class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
 </nav>
 
-<main>
-    <section id="about" class="py-5">
-        <div class="container">
-            <h2>Expand Your Reach with JAGIND LLC</h2>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <p>We are a leading distributor for various brands, specializing in opening wholesale contracts and
-                        selling items on popular online commerce platforms such as eBay, Walmart, Amazon, and more. With
-                        our extensive experience and market knowledge, we help suppliers expand their reach and boost
-                        their sales.</p>
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="fade-in-up">Scale Your Brand with <span class="gradient-text">Data-Driven Ads</span></h1>
+            <p class="fade-in-up" style="animation-delay: 0.2s;">We help ambitious brands achieve explosive growth
+                through strategic Meta and Google Ads campaigns that actually convert.</p>
+            <div class="hero-buttons fade-in-up" style="animation-delay: 0.4s;">
+                <a href="#contact" class="btn btn-primary">Start Growing Today</a>
+                <a href="#results" class="btn btn-secondary">See Our Results</a>
+            </div>
+            <div class="hero-stats fade-in-up" style="animation-delay: 0.6s;">
+                <div class="stat">
+                    <span class="stat-number">$15M+</span>
+                    <span class="stat-label">Ad Spend Managed</span>
                 </div>
-                <div class="col-md-6">
-                    <img src="img/img.png?height=300&width=400" alt="JAGIND LLC Office" class="img-fluid rounded">
+                <div class="stat">
+                    <span class="stat-number">3.8x</span>
+                    <span class="stat-label">Avg. ROAS</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">120+</span>
+                    <span class="stat-label">Brands Scaled</span>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section id="services" class="py-5 bg-light">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card service-card">
-                        <img src="img/img_1.png?height=200&width=300" class="card-img-top" alt="Wholesale Contracts">
-                        <div class="card-body">
-                            <h5 class="card-title">Wholesale Contracts</h5>
-                            <p class="card-text">We establish and manage wholesale contracts with various brands,
-                                ensuring a steady supply of quality products.</p>
-                        </div>
+        <div class="hero-visual">
+            <div class="floating-card">
+                <div class="metric-card">
+                    <div class="metric-icon">📈</div>
+                    <div class="metric-info">
+                        <h4>ROAS</h4>
+                        <p>4.2x</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card service-card">
-                        <img src="img/img_2.png?height=200&width=300" class="card-img-top" alt="Multi-Platform Sales">
-                        <div class="card-body">
-                            <h5 class="card-title">Multi-Platform Sales</h5>
-                            <p class="card-text">We leverage popular e-commerce platforms like eBay, Walmart, Amazon, and more to
-                                maximize your product's visibility and sales potential.</p>
-                        </div>
+            </div>
+            <div class="floating-card">
+                <div class="metric-card">
+                    <div class="metric-icon">💰</div>
+                    <div class="metric-info">
+                        <h4>Revenue</h4>
+                        <p>+285%</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card service-card">
-                        <img src="img/img_3.png?height=200&width=300" class="card-img-top" alt="Market Analysis">
-                        <div class="card-body">
-                            <h5 class="card-title">Market Analysis</h5>
-                            <p class="card-text">Our team provides valuable insights into market trends, helping you
-                                make informed decisions about your product lineup.</p>
-                        </div>
+            </div>
+            <div class="floating-card">
+                <div class="metric-card">
+                    <div class="metric-icon">🎯</div>
+                    <div class="metric-info">
+                        <h4>Conversions</h4>
+                        <p>+342%</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="benefits" class="py-5">
-        <div class="container">
-            <h2>Supplier Benefits</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="benefits-list">
-                        <li>Expanded market reach through multiple online platforms</li>
-                        <li>Increased sales potential with our established customer base</li>
-                        <li>Streamlined inventory management and order fulfillment</li>
-                        <li>Reduced marketing and customer acquisition costs</li>
-                        <li>Access to valuable market insights and trend analysis</li>
-                    </ul>
+<section class="services" id="services">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">What We Do</span>
+            <h2>Performance Marketing That Drives Real Growth</h2>
+            <p>We specialize in creating and managing high-performance ad campaigns that scale your business
+                profitably.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-icon">📱</div>
+                <h3>Meta Ads Management</h3>
+                <p>Leverage the power of Facebook and Instagram ads to reach your ideal customers at scale. We handle
+                    everything from creative strategy to audience targeting and optimization.</p>
+                <ul class="service-features">
+                    <li>Advanced audience targeting & lookalikes</li>
+                    <li>Dynamic creative testing & optimization</li>
+                    <li>Conversion funnel development</li>
+                    <li>Real-time performance tracking</li>
+                </ul>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">🔍</div>
+                <h3>Google Ads Management</h3>
+                <p>Dominate search results and capture high-intent customers with strategic Google Ads campaigns across
+                    Search, Display, Shopping, and YouTube.</p>
+                <ul class="service-features">
+                    <li>Search & shopping campaign optimization</li>
+                    <li>YouTube video advertising</li>
+                    <li>Display remarketing campaigns</li>
+                    <li>Conversion rate optimization</li>
+                </ul>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">📊</div>
+                <h3>Data Analytics & Reporting</h3>
+                <p>Make informed decisions with comprehensive analytics and reporting. We track every metric that
+                    matters and provide actionable insights for growth.</p>
+                <ul class="service-features">
+                    <li>Custom dashboard & reporting</li>
+                    <li>Attribution modeling</li>
+                    <li>Competitor analysis</li>
+                    <li>Performance forecasting</li>
+                </ul>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">🎨</div>
+                <h3>Creative Strategy & Development</h3>
+                <p>Stand out with compelling ad creatives that capture attention and drive action. We combine data
+                    insights with creative excellence.</p>
+                <ul class="service-features">
+                    <li>Ad creative strategy & concepts</li>
+                    <li>A/B testing framework</li>
+                    <li>Video & static ad production</li>
+                    <li>Landing page optimization</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="process" id="process">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">How We Work</span>
+            <h2>Our Proven 4-Step Process</h2>
+            <p>A systematic approach to scaling your brand profitably</p>
+        </div>
+        <div class="process-steps">
+            <div class="process-step reveal">
+                <div class="step-number">1</div>
+                <h3>Discovery & Audit</h3>
+                <p>We analyze your business, competitors, and current marketing to identify opportunities and create a
+                    custom strategy.</p>
+            </div>
+            <div class="process-step reveal">
+                <div class="step-number">2</div>
+                <h3>Strategy Development</h3>
+                <p>We build a comprehensive media plan with audience targeting, creative strategy, and budget
+                    allocation.</p>
+            </div>
+            <div class="process-step reveal">
+                <div class="step-number">3</div>
+                <h3>Launch & Optimize</h3>
+                <p>We launch campaigns and continuously test, optimize, and scale what works best for your business.</p>
+            </div>
+            <div class="process-step reveal">
+                <div class="step-number">4</div>
+                <h3>Scale & Grow</h3>
+                <p>We systematically scale profitable campaigns while maintaining efficiency and driving sustainable
+                    growth.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Client Success</span>
+            <h2>Trusted by Leading Brands</h2>
+            <p>Don't just take our word for it - hear from businesses we've helped scale</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Julio transformed our advertising strategy completely. In just 6 months,
+                    we went from $50K to $400K in monthly revenue with a 4.2x ROAS. Their team's expertise in Meta ads
+                    is unmatched."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SM</div>
+                    <div class="author-info">
+                        <h4>Sarah Mitchell</h4>
+                        <p>CEO, LuxeBeauty Co.</p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="img/img_4.png?height=300&width=400" alt="Supplier Benefits" class="img-fluid rounded">
+            </div>
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Working with Julio has been a game-changer. They helped us scale from
+                    $10K/month to over $250K while maintaining profitability. Their Google Ads expertise is
+                    phenomenal."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MR</div>
+                    <div class="author-info">
+                        <h4>Marcus Rodriguez</h4>
+                        <p>Founder, FitGear Pro</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"The results speak for themselves - 340% increase in revenue in Q1 alone.
+                    Julio's data-driven approach and creative testing methodology are exactly what we needed to break
+                    through our plateau."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">JC</div>
+                    <div class="author-info">
+                        <h4>Jennifer Chen</h4>
+                        <p>CMO, Urban Threads</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"I've worked with several agencies, but JAGIND is in a league of their own.
+                    They're not just order-takers - they're strategic partners who genuinely care about our success.
+                    Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">DW</div>
+                    <div class="author-info">
+                        <h4>David Williams</h4>
+                        <p>Director, PureLife Supplements</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Julio helped us achieve a 5.1x ROAS on our Meta campaigns. Their attention
+                    to detail and commitment to optimization is incredible. They've become an essential part of our
+                    growth strategy."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">AC</div>
+                    <div class="author-info">
+                        <h4>Amanda Cooper</h4>
+                        <p>Owner, Artisan Home Goods</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"From day one, Julio delivered results. Our customer acquisition cost
+                    dropped by 45% while our conversion rate doubled. They truly understand performance marketing at
+                    scale."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">TB</div>
+                    <div class="author-info">
+                        <h4>Thomas Bennett</h4>
+                        <p>VP Marketing, TechFlow Solutions</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="contact" class="py-5 bg-light">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p style="text-align: center">Interested in partnering with JAGIND LLC? <a href="mailto: contact@jagind.cc">Get
-                in touch with us
-                today!</a></p>
+<section class="results" id="results">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Proven Results</span>
+            <h2>Numbers That Speak for Themselves</h2>
+            <p>Real results from real campaigns</p>
         </div>
-    </section>
-</main>
+        <div class="results-grid">
+            <div class="result-item reveal">
+                <span class="result-number">$15M+</span>
+                <div class="result-label">Ad Spend Managed</div>
+                <p class="result-desc">Across all platforms</p>
+            </div>
+            <div class="result-item reveal">
+                <span class="result-number">3.8x</span>
+                <div class="result-label">Average ROAS</div>
+                <p class="result-desc">Across all clients</p>
+            </div>
+            <div class="result-item reveal">
+                <span class="result-number">285%</span>
+                <div class="result-label">Avg. Revenue Growth</div>
+                <p class="result-desc">Year over year</p>
+            </div>
+            <div class="result-item reveal">
+                <span class="result-number">120+</span>
+                <div class="result-label">Brands Scaled</div>
+                <p class="result-desc">Since 2020</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-<footer class="py-3">
-    <div class="container text-center">
-        <p>&copy; 2024 JAGIND LLC. All rights reserved.</p>
+<section class="cta-section" id="contact">
+    <div class="cta-container">
+        <h2>Ready to Scale Your Brand?</h2>
+        <p>Let's discuss how we can help you achieve explosive, profitable growth</p>
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company Name *</label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+                <div class="form-group">
+                    <label for="revenue">Monthly Revenue *</label>
+                    <select id="revenue" name="revenue" required>
+                        <option value="">Select revenue range</option>
+                        <option value="0-50k">$0 - $50K</option>
+                        <option value="50k-100k">$50K - $100K</option>
+                        <option value="100k-250k">$100K - $250K</option>
+                        <option value="250k-500k">$250K - $500K</option>
+                        <option value="500k+">$500K+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Tell us about your goals *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Get Your Free Strategy Call</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-about">
+            <h3>JAGIND LLC</h3>
+            <p>We're a performance marketing agency specializing in Meta and Google Ads. Our mission is to help
+                ambitious brands achieve sustainable, profitable growth through data-driven advertising strategies.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Services</h4>
+            <ul class="footer-links">
+                <li><a href="#services">Meta Ads</a></li>
+                <li><a href="#services">Google Ads</a></li>
+                <li><a href="#services">Analytics</a></li>
+                <li><a href="#services">Creative Strategy</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Company</h4>
+            <ul class="footer-links">
+                <li><a href="#process">Our Process</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul class="footer-links">
+                <li><a href="mailto:julio@jagind.cc">julio@jagind.cc</a></li>
+                <li><a href="#contact">Get Started</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 JAGIND LLC. All rights reserved</p>
     </div>
 </footer>
+
+<script>
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const navLinks = document.getElementById('navLinks');
+
+    mobileMenuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+    });
+
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    const revealElements = document.querySelectorAll('.reveal');
+
+    const revealOnScroll = () => {
+        const windowHeight = window.innerHeight;
+        revealElements.forEach(element => {
+            const elementTop = element.getBoundingClientRect().top;
+            const revealPoint = 100;
+
+            if (elementTop < windowHeight - revealPoint) {
+                element.classList.add('active');
+            }
+        });
+    };
+
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll();
+
+    const contactForm = document.getElementById('contactForm');
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(contactForm);
+        const data = Object.fromEntries(formData);
+
+        // TODO: Send email
+        console.log('Form submitted:', data);
+
+        alert('Thank you for your interest! We\'ll be in touch within 24 hours to schedule your strategy call.');
+        contactForm.reset();
+    });
+
+    document.querySelectorAll('.service-card, .testimonial-card, .result-item').forEach((card, index) => {
+        card.style.transitionDelay = `${index * 0.1}s`;
+    });
+</script>
 </body>
 </html>
